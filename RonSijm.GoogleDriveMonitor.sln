@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34607.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RonSijm.GoogleDriveMonitor.CoreLib", "RonSijm.GoogleDriveMonitor.CoreLib\RonSijm.GoogleDriveMonitor.CoreLib.csproj", "{4E4BE611-8F85-4FB4-8DAC-9375908FD1E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RonSijm.GoogleDriveMonitor.CLI", "RonSijm.GoogleDriveMonitor.CLI\RonSijm.GoogleDriveMonitor.CLI.csproj", "{59D2D542-2D60-472C-9A36-5C49C5D99C0A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RonSijm.GoogleDriveMonitor.DAL", "RonSijm.GoogleDriveMonitor.DAL\RonSijm.GoogleDriveMonitor.DAL.csproj", "{3C9C2D3D-1817-4643-BB24-92A9BDA7B29E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E4BE611-8F85-4FB4-8DAC-9375908FD1E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E4BE611-8F85-4FB4-8DAC-9375908FD1E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E4BE611-8F85-4FB4-8DAC-9375908FD1E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E4BE611-8F85-4FB4-8DAC-9375908FD1E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59D2D542-2D60-472C-9A36-5C49C5D99C0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59D2D542-2D60-472C-9A36-5C49C5D99C0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59D2D542-2D60-472C-9A36-5C49C5D99C0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59D2D542-2D60-472C-9A36-5C49C5D99C0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C9C2D3D-1817-4643-BB24-92A9BDA7B29E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C9C2D3D-1817-4643-BB24-92A9BDA7B29E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C9C2D3D-1817-4643-BB24-92A9BDA7B29E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C9C2D3D-1817-4643-BB24-92A9BDA7B29E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C7ECE74-51FC-4F2A-A2DF-27687D340460}
+	EndGlobalSection
+EndGlobal

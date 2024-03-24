@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Apis.Auth" Version="1.67.0" />
+  </ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\RonSijm.GoogleDriveMonitor.DAL\RonSijm.GoogleDriveMonitor.DAL.csproj" />
+	</ItemGroup>
+
+
+</Project>
