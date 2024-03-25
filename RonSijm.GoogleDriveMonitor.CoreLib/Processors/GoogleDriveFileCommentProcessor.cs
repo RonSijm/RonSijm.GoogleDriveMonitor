@@ -14,6 +14,7 @@ public class GoogleDriveFileCommentProcessor(ILogger<GoogleDriveFileCommentProce
             commentsResponse = await service.Comments.List(file.Id)
                        .With(x => x.IncludeDeleted = true)
                        .With(x => x.Fields = "*").ExecuteAsync(cancellationToken);
+
         }
         catch (Exception)
         {

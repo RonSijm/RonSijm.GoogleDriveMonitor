@@ -36,6 +36,8 @@ public static class UserManager
         }
 
         FixField(() => file.LastModifyingUser, x => file.LastModifyingUser = x);
+        FixField(() => file.SharingUser, x => file.SharingUser = x);
+        FixField(() => file.TrashingUser, x => file.TrashingUser = x);
     }
         
     public static void FixUsers(Comment comment)

@@ -70,6 +70,8 @@ public class LocalDataContext : DbContext
         modelBuilder.Entity<File>().HasOne(e => e.LastModifyingUser);
         modelBuilder.Entity<File>().HasOne(e => e.SharingUser);
         modelBuilder.Entity<File>().HasOne(e => e.TrashingUser);
+
+        modelBuilder.Entity<User>().HasIndex(u => u.EmailAddress).IsUnique();
     }
 
     public void EnsureCreated()
